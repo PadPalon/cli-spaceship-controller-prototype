@@ -4,7 +4,7 @@ Prototype for a command line based spaceship controller
 ### Turning in degrees
 
 ```
-turn (left|right) \<angle in degrees\>
+turn (left|right) <angle in degrees>
 ```
 
 Turn a given angle.
@@ -20,7 +20,7 @@ Angle the ship either towards (prograde) or against (retrograde) the current dir
 ### Full thrust
 
 ```
-thrust \<duration\>
+thrust <duration>
 ```
 
 Activate thrusters at full power for a time given in seconds.
@@ -28,7 +28,7 @@ Activate thrusters at full power for a time given in seconds.
 ### Thrust with variable power
 
 ```
-thrust \<duration\> \<percentage of power to use\>
+thrust <duration> <percentage of power to use>
 ```
 
 Activate thrusters at a percentage of their possible power for a time given in seconds.
